@@ -36,4 +36,31 @@ body {
    margin-right: 150px;
    margin-left: 80px;
 }
+.button{
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius:3px;
+    box-shadow:2px  2px 1px #90A4AE;
+}
 
+#edit-todo-buttton{
+    display: inline-block;
+    width:40px;
+    background-color:#ff0000;
+    margin-right: 5px;
+}
+
+#delete-todo-button{
+    display: inline-block;
+    width:60px;
+    background-color:#F44336;
+}
+#Estimate{
+    margin: 30px;
+}
+    
+}
