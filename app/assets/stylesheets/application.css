@@ -62,5 +62,19 @@ body {
 #Estimate{
     margin: 30px;
 }
+
+.image-wrapper,
+.list-wrapper{
+    width: 50%;
+    float:left;
+}
+img {
+    max-width: 100%
+}
     
 }
+    
+    
+}
+
+    
