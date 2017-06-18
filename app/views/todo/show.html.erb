@@ -7,7 +7,7 @@
             <span class="pomodoro-estimate" id=show_span> <%= @todo.pomodoro_estimate%> pomodoros</span>
             </div>
             <div>
-            <a href="#" class="button" id="edit-todo-button">Edit</a>
+            <a href="/todo/edit/<%=@todo.id%>" class="button" id="edit-todo-button">Edit</a>
             <a href="#" class="button" id="delete-todo-button">Delete</a>
             <a href="/todo/index"class="simpple-link">Go back...</a>
 
