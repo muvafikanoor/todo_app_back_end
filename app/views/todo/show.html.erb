@@ -2,9 +2,9 @@
     <h2>Todo#<%= params[:id]%></h2>
     <title>Assignments Details</title>
         <div id='Estimate'><span>
-          <%=@todo_description%>
+          <%=@todo.description%>
             </span>
-            <span class="pomodoro-estimate" id=show_span> <%= @todo_pomodora_estimate%> pomodoros</span>
+            <span class="pomodoro-estimate" id=show_span> <%= @todo.pomodoro_estimate%> pomodoros</span>
             </div>
             <div>
             <a href="#" class="button" id="edit-todo-button">Edit</a>
