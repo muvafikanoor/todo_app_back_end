@@ -1,0 +1,7 @@
+<h2>edit todo</h2>
+<form action="/todo/update/<%=@todo.id%>">
+    <input class="text-input" id="edit-pomodoro-estimate" type="number" name = "pomodoro_estimate" value="<%= @todo.pomodoro_estimate%>"  >
+    <input class="text-input" id="edit-todo-description" type="text" name = "description" value="<%= @todo.description%>">
+    <input class="button" id="edit-todo-button" type="submit" name= "complete" value="Add todo">
+    
+</form>
